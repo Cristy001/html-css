@@ -14,6 +14,7 @@
     table{
         width: 500px;
         border-collapse: collapse;
+        position: relative;
     }
     td, th{
         border: 2px solid black;
@@ -22,6 +23,22 @@
     thead, tfoot{
         background-color: blueviolet;
         color: white
+    }
+    thead>tr>th{
+        position: sticky;
+        top: -1px;
+        background-color: blueviolet;
+    }
+    caption{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: x-large;
+        background-color: blueviolet;
+        color: white;
+        padding: 10px;
+    }
+    tbody>tr:nth-child(2n){
+        background-color: blueviolet;
+        color: white;
     }
     
 </style>
@@ -38,10 +55,11 @@
                 TR, TD, TH    
     -->
     <table>
+        <caption>esse é o titulo</caption>
         <thead>
             <tr>
-                <th>Estado</th>
-                <th>População</th>
+                <th scope="col">Estado</th>
+                <th scope="col" style="width: 50px;">População</th>
             </tr>
         </thead>
         <tbody>
@@ -61,12 +79,31 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de Habitantes</th>
+                <th scope="row">Total de Habitantes</th>
                 <td>0000</td>
             </tr>
 
         </tfoot>
     </table>
-    
+    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Similique aliquid obcaecati nihil cupiditate tempore, minima excepturi ipsa quas quod ut? Eligendi amet quas dignissimos similique quidem, culpa tenetur sapiente maiores? Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic unde quasi id autem minima perspiciatis repudiandae inventore sequi est eveniet nulla, consectetur nisi eligendi, doloremque voluptatum pariatur maxime, explicabo corporis.</p>
+    <br>
+    <br>
+    <br>
+    <br>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptatibus consequatur enim consectetur, voluptatum ipsum impedit exercitationem aut labore molestias reprehenderit culpa quae iure vitae earum. Fuga ullam corporis et.</p>
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi repudiandae est enim magnam! Deserunt autem sint eum excepturi itaque maxime neque nulla laborum voluptas! Aspernatur pariatur saepe veniam esse numquam.
+    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, veritatis! Cupiditate, numquam laudantium id accusamus quis totam aliquid minus, eaque omnis ipsa veritatis quam temporibus sunt expedita mollitia unde earum.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga eum fugit exercitationem omnis? Minima neque facilis quia eligendi libero quae debitis delectus qui modi perspiciatis, necessitatibus ipsa harum in?
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolore nihil libero quidem ipsum unde magnam commodi reiciendis, rem suscipit ducimus neque officiis distinctio atque, at laboriosam fugit ratione minima quod.
+    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Similique, magnam! Aut itaque molestias, minus nemo voluptatem, distinctio nisi quos consectetur, maiores molestiae id ex doloremque? Earum cupiditate quae omnis esse?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus maiores commodi ducimus nihil laborum nisi eveniet totam. Quisquam adipisci voluptas fugit, ad optio perspiciatis sint quaerat, tempora laboriosam veniam consectetur!
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ipsam itaque minima cumque libero ratione quidem, eveniet consectetur non pariatur iusto quibusdam vero omnis odit voluptatum voluptate necessitatibus dignissimos qui nisi?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque illo debitis laudantium quasi! Totam eos corrupti blanditiis veritatis maxime repudiandae repellat enim, dolor, voluptatibus doloribus quam, praesentium fuga ipsa eum.
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Saepe, temporibus modi perferendis voluptatibus quae ducimus deserunt error voluptas atque rem possimus nihil tempora sunt! Incidunt soluta atque nisi inventore eum.
+    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Culpa, voluptatem atque odit facere omnis repellendus exercitationem tenetur dolorum vitae deserunt possimus repudiandae ut voluptatibus laudantium sint, ipsa alias perspiciatis minus.
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi, ipsum enim. Fuga quibusdam nihil, dolor quam ex quasi at voluptas incidunt, doloribus soluta nisi quaerat suscipit repudiandae aliquam, enim consectetur?
+    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquam magni veritatis velit harum ipsa, facere voluptate in quos deserunt enim aperiam perspiciatis optio, consequuntur perferendis vitae ducimus adipisci, odit ab?
+    Lorem ipsum dolor sit amet consectetur adipisicing elit. Quia dolorem adipisci at dolore fugiat enim voluptatibus nulla, pariatur eius minus, magni asperiores tempore facere ullam iste repellat odio nam similique.ipsum dolor sit, amet consectetur adipisicing elit. Ipsam itaque minima cumque libero ratione quidem, eveniet consectetur non pariatur iusto quibusdam vero omnis odit voluptatum voluptate necessitatibus dignissimos qui nisi?
+
 </body>
 </html>
