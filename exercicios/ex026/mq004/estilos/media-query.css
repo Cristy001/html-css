@@ -1,1 +1,48 @@
 @charset "UTF-8";
+
+
+/* Typical Device Breakpionts
+Pequenas telas: até 600px
+ceular: de 600px até 768px
+tablet: 768px ate 992px
+desktop: 992px até 1200px
+grandes telas: acima de 1200px
+*/
+
+@media print {
+    body{
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+    #print{display: block;}
+
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body{
+        background-image: url(../img/back-tablet.jpg);
+    }
+    
+    #tablet {display: block;}
+    
+}
+
+@media screen and (min-width: 992px) and (max-width:1200px){
+    body{
+        background-image: url(../img/back-pc.jpg);
+    }
+    #pc {display: block;}
+
+}
+@media screen and (min-width: 1200px) {
+    body{
+        background-image: url(../img/back-tv.jpg);
+        
+    }
+    main{
+        width: 700px;
+    }
+    
+    #tv{display: block;}
+}
+
