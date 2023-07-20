@@ -1,0 +1,17 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px){
+    main>section{
+        float: right;
+        width: 200px;
+        height: 500px;
+        
+        
+    }
+    main{
+        
+        width: 80vw;
+        float: left;
+  
+    }
+}
