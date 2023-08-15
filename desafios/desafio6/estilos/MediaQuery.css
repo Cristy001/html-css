@@ -14,4 +14,15 @@
         float: left;
   
     }
+    #senha, #entrar{
+        width: calc(100% - 450px);
+    }
+    #iemail, #isenha{
+        width: calc(100% - 480px);
+    }
+}
+@media screen and (min-width: 1000px){
+    #senha, #entrar{
+        width: calc(100% - 450px);
+    }
 }
