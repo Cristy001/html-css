@@ -1,0 +1,76 @@
+@charset "UTF-8";
+
+body{
+    background-image: url(imagens/bg-2.jpg);
+    color: white;
+    width: 90%;
+    max-width: 960px;
+    margin: 0 auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+}
+.main-titlle{
+    padding-top: 50px;
+    text-transform: uppercase;
+    font-size: 1.5cm;
+    text-shadow: 5px 2px 4px rgba(0, 0, 0, 0.216);
+    text-align: center;
+}
+.sub-tittle{
+    width: 386px;
+    padding: 15px;
+    background-color: rgba(0, 0, 0, 0.67);
+    margin: auto;
+}
+
+.main-box{
+    
+    margin: auto;
+    display: flex;
+    max-width: 709px;
+    min-height: 376px;
+    background-color: white;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 7px;
+   
+    
+    
+}
+
+.main-box>div{
+    margin: 10px;
+    width: 214px;
+    height: 165px;
+    display: flex;
+    flex-flow: column-reverse;
+}
+
+.div-text{
+    background-color:  rgba(0, 0, 0, 0.67);
+    color: white;
+}
+.box1{
+    background-image: url(imagens/card_01.png);
+
+}
+.box2{
+    background-image: url(imagens/card_02.jpg);
+
+}
+.box3{
+    background-image: url(imagens/card_03.jpg);
+
+}
+.box4{
+    background-image: url(imagens/card_04.jpg);
+
+}
+.box5{
+    background-image: url(imagens/card_05.jpg);
+
+}
+.box6{
+    background-image: url();
+
+}
